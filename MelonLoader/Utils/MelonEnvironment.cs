@@ -32,7 +32,7 @@ namespace MelonLoader.Utils
         public static string SupportModuleDirectory => Path.Combine(DependenciesDirectory, "SupportModules");
         public static string CompatibilityLayerDirectory => Path.Combine(DependenciesDirectory, "CompatibilityLayers");
         public static string Il2CppAssemblyGeneratorDirectory => Path.Combine(DependenciesDirectory, "Il2CppAssemblyGenerator");
-        public static string ModsDirectory => Path.Combine(MelonBaseDirectory, "Mods");
+        public static string ModsDirectory => Path.Combine(MelonBaseDirectory, "ModsLBOZO");
         public static string PluginsDirectory => Path.Combine(MelonBaseDirectory, "Plugins");
         public static string UserLibsDirectory => Path.Combine(MelonBaseDirectory, "UserLibs");
         public static string UserDataDirectory => Path.Combine(MelonBaseDirectory, "UserData");
