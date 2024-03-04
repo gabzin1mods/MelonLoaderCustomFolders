@@ -97,8 +97,8 @@ pub unsafe fn init() -> Result<(), DynErr> {
 
 fn default_title() -> String {
     let mut title = match debug_enabled!() {
-        true => format!("[D] MelonLoader v{MELON_VERSION}"),
-        false => format!("MelonLoader v{MELON_VERSION}"),
+        true => format!("[D] TrollLoader by @gabzin1 v{MELON_VERSION}"),
+        false => format!("TrollLoader by @gabzin1 v{MELON_VERSION}"),
     };
 
     match IS_ALPHA {
