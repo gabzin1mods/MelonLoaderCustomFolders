@@ -64,6 +64,7 @@ namespace MelonLoader.InternalUtils
                 GameVersion = DefaultInfo;
 
             MelonLogger.WriteLine(Color.Magenta);
+            MelonLogger.Msg($"Enjoy Troll Loader by @gabzin1 in youtube");
             MelonLogger.Msg($"Game Name: {GameName}");
             MelonLogger.Msg($"Game Developer: {GameDeveloper}");
             MelonLogger.Msg($"Unity Version: {EngineVersion}");
