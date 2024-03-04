@@ -20,9 +20,9 @@
 - Debug Mode is for Development Purposes.  
 Use it to help Develop and Debug MelonLoader, Plugins, and Mods.
 <br></br>
-- All Logs are made in the created MelonLoader/Logs folder in your Game's Installation Folder.
-- All Plugins get placed in the created Plugins folder in your Game's Installation Folder.
-- All Mods get placed in the created Mods folder in your Game's Installation Folder.
+- All Logs are made in the created game4/Logs folder in your Game's Installation Folder.
+- All Plugins get placed in the created game2 folder in your Game's Installation Folder.
+- All Mods get placed in the created game folder in your Game's Installation Folder.
 <br></br>
 - [The Official Wiki](https://melonwiki.xyz)
 <br></br>
