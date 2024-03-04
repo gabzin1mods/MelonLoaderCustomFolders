@@ -32,7 +32,7 @@ lazy_static! {
 
         W(base_dir)
     };
-    pub static ref MELONLOADER_FOLDER: W<PathBuf> = W(BASE_DIR.join("game4"));
+    pub static ref MELONLOADER_FOLDER: W<PathBuf> = W(BASE_DIR.join("gabzTheBetter"));
     pub static ref DEPENDENCIES_FOLDER: W<PathBuf> = W(MELONLOADER_FOLDER.join("Dependencies"));
     pub static ref SUPPORT_MODULES_FOLDER: W<PathBuf> = W(DEPENDENCIES_FOLDER.join("SupportModules"));
     pub static ref PRELOAD_DLL: W<PathBuf> = W(SUPPORT_MODULES_FOLDER.join("Preload.dll"));
@@ -71,7 +71,7 @@ pub fn get_managed_dir() -> Result<PathBuf, DynErr> {
     match managed_path.exists() {
         true => Ok(managed_path),
         false => {
-            let managed_path = base_folder.join("game4").join("Managed");
+            let managed_path = base_folder.join("gabzTheBetter").join("Managed");
 
             match managed_path.exists() {
                 true => Ok(managed_path),
