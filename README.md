@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="#"><img src="https://i.imgur.com/9pJzVpw.png"></a>
-  <a href="#"><img src="blob:https://imgur.com/e171e1a8-3d4d-4cdd-ae9a-f7a599684215"></a>
+  <a href="#"><img src="https://i.imgur.com/ToBi90n.png"></a>
 </p>
 
 ---
